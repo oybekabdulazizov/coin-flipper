@@ -1,11 +1,10 @@
 import './App.css';
-import Coin from './Coin';
-import imgSrc from './images/transparent.png';
+import Flipper from './Flipper';
 
 function App() {
   return (
     <div className="App">
-      <Coin src={imgSrc} alt='empty-img' />
+      <Flipper />
     </div>
   );
 }
