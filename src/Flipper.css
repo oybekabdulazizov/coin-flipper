@@ -1,0 +1,19 @@
+.Flipper {
+    border: 2px solid gray;
+    border-radius: 0.6rem;
+    width: 30rem;
+    margin: 5rem auto;
+    padding: .5rem 0;
+}
+
+.Flipper button {
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    border-radius: 0.6rem;
+    border: 1px solid gray;
+    margin: 0.5rem 0;
+}
+
+.Flipper div h3 {
+    margin: .5rem 0;
+}

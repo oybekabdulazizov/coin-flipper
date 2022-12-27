@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Coin from './Coin';
 import { head, tail, transparent } from './images';
+import './Flipper.css';
 
 class Flipper extends Component {
     constructor(props) {
@@ -39,7 +40,7 @@ class Flipper extends Component {
 
     render() {
         return (
-            <div>
+            <div className="Flipper">
                 <h1>Let's flip a coin!</h1>
                 {this.state.currCoin 
                     ? <Coin src={this.state.currCoin.imgSrc} alt={this.state.currCoin.side} />
